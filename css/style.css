@@ -343,13 +343,14 @@ a {
   padding: 11px 12px 11px 30px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-
+  height: 40px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input.area {
   resize: none;
   padding: 12px 16px;
+  height: 120px;
 }
 
 .form-box {
@@ -370,8 +371,7 @@ a {
   justify-content: center;
 
   margin-left: -23px;
-  width: 16px;
-  height: 15px;
+  margin-top: 3px;
   border: 2px solid var(--main-color-black);
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -385,7 +385,18 @@ a {
 
 .form-link {
   color: var(--main-color-blue);
-  text-decoration: underline;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+  text-decoration-line: underline;
+}
+
+.form-text {
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
 }
 
 .form-icon {
